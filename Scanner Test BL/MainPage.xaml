@@ -5,10 +5,12 @@
              x:Class="Scanner_Test_BL.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
+    <!--<BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
         <BlazorWebView.RootComponents>
             <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
         </BlazorWebView.RootComponents>
-    </BlazorWebView>
+    </BlazorWebView>-->
+
+    <WebView x:Name="MyWebView" Source="https://bing.com" />
 
 </ContentPage>
